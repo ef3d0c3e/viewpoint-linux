@@ -1,0 +1,11 @@
+# Downloaded by native/fetch-deps.sh: NVIDIA's NGX SDK (proprietary, not redistributable as
+# source) and the Khronos Vulkan headers. Pinned by native/deps.sha256.
+/third_party/
+
+# Build outputs: build/ holds the compiled classes, the test natives and the 59 MB DLSS runtime;
+# dist/ holds the packaged mod, which contains NVIDIA's NGX code in object form.
+/build/
+/dist/
+
+# JVM crash logs
+hs_err_pid*.log

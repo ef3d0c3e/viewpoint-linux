@@ -1,0 +1,30 @@
+Viewpoint Linux
+Copyright (C) 2026 ef3d0c3e
+
+Licensed under the GNU General Public License version 3 or later, with the additional
+permissions in LICENSE-EXCEPTION. See LICENSE.
+
+This repository contains no code from Project Zomboid, Viewpoint or ZombieBuddy. The
+add-on refers to their classes and methods by name and patches them at runtime.
+
+
+Third-party software in builds
+------------------------------
+
+NVIDIA DLSS / NGX SDK (v310.9.1)
+  This software contains source code provided by NVIDIA Corporation.
+  This software uses NVIDIA DLSS. NVIDIA, the NVIDIA logo and DLSS are trademarks and/or
+  registered trademarks of NVIDIA Corporation in the U.S. and other countries.
+
+  The built native library (libvplinux_ngx.so, inside the add-on jar) links NVIDIA's NGX
+  static library (libnvsdk_ngx.a) and compiles in inline helpers from the NGX headers.
+  Those parts are covered by the NVIDIA RTX SDKs License, which is shipped with every
+  build as NVIDIA-DLSS-LICENSE.txt, not by the GNU GPL. The NGX SDK is not included in
+  this repository; native/fetch-deps.sh downloads it from https://github.com/NVIDIA/DLSS.
+
+  At runtime the add-on downloads NVIDIA's DLSS library (libnvidia-ngx-dlss.so.310.9.1)
+  from the same NVIDIA repository. It is not redistributed with the add-on.
+
+Khronos Vulkan-Headers (v1.4.309)
+  Used to compile the native library; downloaded by native/fetch-deps.sh and not
+  redistributed. Copyright The Khronos Group Inc.; Apache-2.0 OR MIT.

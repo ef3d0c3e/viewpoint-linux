@@ -1,0 +1,37 @@
+Viewpoint Linux: additional permissions under GNU GPL version 3 section 7
+
+Viewpoint Linux is free software: you can redistribute it and/or modify it under the terms
+of the GNU General Public License as published by the Free Software Foundation, either
+version 3 of the License, or (at your option) any later version, with the additional
+permissions below. The license text is in LICENSE.
+
+1. NVIDIA NGX / DLSS SDK
+
+If you modify this Program, or any covered work, by linking or combining it with the
+NVIDIA NGX SDK or NVIDIA DLSS SDK, or a modified version of them (together, "the NVIDIA
+SDK"), containing parts covered by the terms of the NVIDIA RTX SDKs License, the licensors
+of this Program grant you additional permission to convey the resulting work.
+
+The parts of the NVIDIA SDK in such a combination remain under the NVIDIA RTX SDKs License
+and are not covered by the GNU General Public License. Corresponding Source for a
+non-source form of such a combination does not need to include the source code of the
+parts of the NVIDIA SDK used, only that of the covered work. Anyone conveying such a
+combination must also comply with the NVIDIA RTX SDKs License for the parts of the
+NVIDIA SDK it contains.
+
+2. The software this Program extends
+
+If you modify this Program, or any covered work, by linking or combining it with Project
+Zomboid, the Viewpoint mod for Project Zomboid, or ZombieBuddy, or with the libraries they
+include, or with modified versions of any of these, containing parts covered by the terms
+of their respective licenses, the licensors of this Program grant you additional
+permission to convey the resulting work. Those parts remain under their own licenses and
+are not covered by the GNU General Public License.
+
+These permissions apply to the code of this Program only. They do not grant any rights
+to the NVIDIA SDK, Project Zomboid, Viewpoint, ZombieBuddy, or their libraries; those are
+governed by their own licenses.
+
+You may remove either or both of these additional permissions from your copy, or from
+works based on it, as GNU GPL version 3 section 7 allows. If you do, you may no longer be
+able to convey binaries that include the NVIDIA SDK.

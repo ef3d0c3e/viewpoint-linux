@@ -1,0 +1,11 @@
+name=Viewpoint Linux
+id=ViewpointLinux
+description=NVIDIA DLSS for Viewpoint on native Linux (RTX cards): Linux OpenGL/Vulkan image sharing plus a DLSS backend on NVIDIA's NGX SDK. Patches Viewpoint at runtime; ships none of its code. Does nothing on Windows. GPL-3.0-or-later with additional permissions (LICENSE, LICENSE-EXCEPTION); contains NVIDIA NGX SDK code under NVIDIA-DLSS-LICENSE.txt, see NOTICE.
+modversion=0.2.0
+versionMin=42.22
+versionMax=42.22
+
+require=\ZombieBuddy,\Viewpoint
+ZBVersionMin=2.3.0
+javaJarFile=media/java/client/ViewpointLinux.jar
+javaPkgName=vplinux
