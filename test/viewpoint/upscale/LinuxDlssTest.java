@@ -95,7 +95,7 @@ public final class LinuxDlssTest {
     /** Halton(2,3) jitter in [-0.5, 0.5] render pixels, as a TAA-style renderer would use. */
     private static UpscaleFrame frame(int i, int w, int h) {
         return new UpscaleFrame(halton(i + 1, 2) - 0.5f, halton(i + 1, 3) - 0.5f, w, h, i == 0,
-            16.7f, 0.05f, 400f, 1.2f, 1.2247449f, new float[64], new float[12]);
+            16.7f, 0.05f, 400f, 1.2f, 1.2247449f, 0f, new float[64], new float[12]);
     }
 
     private static float halton(int index, int base) {

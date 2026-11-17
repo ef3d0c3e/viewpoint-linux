@@ -21,6 +21,7 @@ import org.lwjgl.system.JNI;
 import org.lwjgl.system.Library;
 import org.lwjgl.system.MemoryUtil;
 import org.lwjgl.system.SharedLibrary;
+import viewpoint.platform.NativeFiles;
 
 /**
  * Binding to libvplinux_ngx.so, the add-on's wrapper around NVIDIA's NGX SDK (see

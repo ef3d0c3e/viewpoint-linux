@@ -29,6 +29,7 @@ NGX's console output is filtered to real warnings and errors.
 For the full log, start the game with `VPLINUX_NGX_LOG=1`; in Steam, put `VPLINUX_NGX_LOG=1 %command%` in the launch options.
 
 Requirements:
+- Viewpoint 0.1.7 or newer (0.1.7 moved `NativeFiles` to `viewpoint.platform`, which the add-on now uses);
 - an NVIDIA RTX card;
 - the proprietary driver with `libnvidia-ngx.so.1` (Debian package `libnvidia-ngx1`).
 
@@ -55,7 +56,7 @@ Requirements:
 ./build.sh test   # also runs both tests outside the game
 ```
 
-Building needs a JDK 17+ and g++.
+Building needs a JDK 25 or newer (Viewpoint 0.1.7 is compiled for Java 25) and g++. Set `JDK=` if it is not in `/usr/lib/jvm/java-25-openjdk-amd64`.
 `native/fetch-deps.sh` downloads the NGX headers and static library from NVIDIA/DLSS v310.9.1, and the Khronos Vulkan headers.
 It checks them against `native/deps.sha256`.
 

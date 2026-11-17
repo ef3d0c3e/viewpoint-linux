@@ -19,6 +19,7 @@ import org.lwjgl.vulkan.VkCommandPoolCreateInfo;
 import org.lwjgl.vulkan.VkInstance;
 import org.lwjgl.vulkan.VkPhysicalDevice;
 import org.lwjgl.vulkan.VkSubmitInfo;
+import viewpoint.platform.NativeFiles;
 
 /**
  * DLSS Super Resolution on Linux through NGX, in place of Viewpoint's Windows-only
